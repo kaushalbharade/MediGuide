@@ -1,0 +1,43 @@
+# ----------------------------
+# Core App
+# ----------------------------
+streamlit==1.46.1
+python-dotenv==1.1.1
+pandas==2.3.1
+numpy==2.2.6
+scikit-learn==1.6.1
+scipy==1.16.0
+joblib==1.5.1
+pickle-mixin==1.0.2
+
+# ----------------------------
+# Disease Prediction
+# ----------------------------
+thefuzz==0.22.1
+RapidFuzz==3.13.0
+
+# ----------------------------
+# Drug Recommendation
+# ----------------------------
+sentence-transformers==5.0.0
+
+# ----------------------------
+# Medibot (RAG)
+# ----------------------------
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-community==0.3.27
+langchain-groq==0.3.6
+langchain-huggingface==0.3.0
+faiss-cpu==1.11.0
+huggingface-hub==0.33.4
+transformers==4.53.2
+torch==2.7.1
+nest-asyncio==1.6.0
+groq==0.30.0
+
+# ----------------------------
+# Utilities
+# ----------------------------
+requests==2.32.4
+tqdm==4.67.1
